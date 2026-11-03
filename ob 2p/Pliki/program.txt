@@ -1,0 +1,33 @@
+program bedzie symulował działanie konta bankowego w programie ma się znaleść klasa i konto
+klasa komta ma zawierać:
+-nazwa konta
+-nazwisko
+-imie
+-nr konta
+-saldo
+-licznik operacyjny
+-informacje o maksymalnej wartości salda wszystkich kontach
+-saldo siePomaga jedno dla wszystkich kont banku
+-metody:
+    -konstruktor:
+        -bezparametrowy (uustawiający wszystkie klasy na wartości zerowe/'BRAK DANYCH')
+        -z parametrami pozwalającymi ustawić wartości pol klasy (wszystkie pola)
+    -dostępowe get i set do pol prywatnych
+    -info() wyświetlacąca na ekranie informacje o koncie
+    ****************************
+    * nazwa
+    * nr konta
+    * nazwisko imie
+    * saldo, licznik operacyji
+    ******************************
+
+    w pliku main.cpp stworzyć funkcje zaprzyjaźnioną z klasą Tkonto pozwalającą na wykonywanie przelewów mię dzy dwoma kontami
+
+    w funkci main()
+    stworzyć 4 konta (3 za pomocą wskażnika)
+    usatwić wartość salda
+    wypisać info o koncie
+    wykonać pare przelewówusunąć konto
+    wyświetlić stan salda siePomaga
+    wyświetlić wartość maksymalnego salda w kontach
+    wyświetlić konto z najwiekszą liczbą operacji
